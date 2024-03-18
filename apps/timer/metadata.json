@@ -1,0 +1,12 @@
+{ "id": "timer",
+  "name": "Best Timer in the World",
+  "shortName":"Mark Timer",
+  "icon": "app.png",
+  "version":"0.01",
+  "description": "This is a description of my Mark's timer app",
+  "tags": "",
+  "storage": [
+    {"name":"timer.app.js","url":"app.js"},
+    {"name":"timer.img","url":"app-icon.js","evaluate":true}
+  ]
+}
