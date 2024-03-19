@@ -2,9 +2,10 @@
   "name": "Best Timer in the World",
   "shortName":"Mark Timer",
   "icon": "app.png",
-  "version":"0.01",
+  "version":"0.03",
   "description": "This is a description of my Mark's timer app",
   "tags": "",
+  "readme": "README.md",
   "supports": ["BANGLEJS2"],
   "storage": [
     {"name":"timer.app.js","url":"app.js"},
