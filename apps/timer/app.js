@@ -1,5 +1,10 @@
-var counter = 10;
+var counter;
 var counterInterval;
+
+// read settings file, or if it doesn't exist use {}
+var settings = require('Storage').readJSON("timer.json", true) || {};
+var maxCounter = settings.startat || 11; // default to 11
+delete settings; // remove settings from memory
 
 function outOfTime() {
   if (counterInterval) return;
@@ -30,7 +35,7 @@ function countDown() {
 
 
 function startTimer() {
-  counter = 10;
+  counter = maxCounter;
   countDown();
   if (!counterInterval)
     counterInterval = setInterval(countDown, 1000);
