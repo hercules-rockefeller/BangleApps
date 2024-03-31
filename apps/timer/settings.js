@@ -13,7 +13,7 @@
     E.showMenu({
       "" : { "title" : "Mark Timer Settings" },
       "< Back" : () => back(),
-      'repeat forever?': {
+      'repeat?': {
         value: !!settings.onoroff,  // !! converts undefined to false
         onchange: v => {
           settings.onoroff = v;
