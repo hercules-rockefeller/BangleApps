@@ -13,3 +13,14 @@ g.setFont("Vector",80);
 g.drawString(barcode, 120, 120);
 Bangle.setLCDPower(1);
 
+
+/*
+Raw text	
+29065020225959
+Raw bytes	
+(Not applicable)
+Barcode format	CODABAR
+Parsed Result Type	TEXT
+Parsed Result	
+29065020225959
+*/
